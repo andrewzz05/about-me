@@ -55,6 +55,9 @@ h3 { font-size: 1.2rem; margin-bottom: 9px; }
 .section-heading > div { max-width: 600px; }
 .section-intro { max-width: 390px; color: var(--muted); margin: 0; }
 .text-link { font-weight: 750; color: var(--accent); white-space: nowrap; }
+/* Project-specific link styling: prominent color + underline */
+.project-link { font-weight: 750; color: var(--accent); text-decoration: underline; text-underline-offset: 3px; }
+.project-link:hover { color: var(--navy); }
 .feature-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
 .feature-card { padding: 30px; border: 1px solid var(--line); border-radius: 12px; background: var(--white); }
 .feature-card p, .project-content p, .project-row p { color: var(--muted); }
