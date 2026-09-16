@@ -73,6 +73,9 @@ h3 { font-size: 1.2rem; margin-bottom: 9px; }
 .tags.large { margin: 25px 0 45px; }
 .project-placeholder { min-height: 205px; display: flex; align-items: center; justify-content: center; color: rgba(255,255,255,.82); background: var(--navy); font: 800 .72rem "SFMono-Regular", Consolas, monospace; letter-spacing: .13em; position: relative; overflow: hidden; }
 .project-placeholder::after { content: ""; position: absolute; width: 170px; height: 170px; border: 1px solid rgba(255,255,255,.13); transform: rotate(45deg); }
+.project-placeholder img { position: relative; z-index: 1; max-width: 72%; max-height: 56%; object-fit: contain; filter: brightness(0) invert(1); }
+.project-placeholder.small img { max-width: 78%; max-height: 62%; }
+.project-logo { display: block; width: min(70%, 420px); max-height: 120px; object-fit: contain; filter: brightness(0) invert(1); }
 .compiler-art { background: linear-gradient(135deg, #172b4d, #253c64); }
 .distributed-art { background: linear-gradient(135deg, #182f31, #245458); }
 .ml-art { background: linear-gradient(135deg, #352648, #574270); }
