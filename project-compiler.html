@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Andrew | Optimizing x86 Compiler</title><link rel="stylesheet" href="style.css"></head>
+<body>
+<header class="site-header"><nav class="nav container"><a class="brand" href="index.html">Andrew<span>.</span></a><div class="nav-links"><a href="index.html">Home</a><a href="resume.html">Resume</a><a class="active" href="projects.html">Projects</a><a href="about.html">About</a></div></nav></header>
+<main class="container project-page">
+  <a class="back-link" href="projects.html">← Back to projects</a>
+  <div class="project-hero compiler-art"><span>RUST / COMPILER CONSTRUCTION / x86</span></div>
+  <p class="eyebrow">Systems · 2026</p><h1>Optimizing x86 Compiler</h1>
+  <p class="project-lead">A compiler project focused on translating a functional, dynamically typed language into optimized x86 code while managing the challenges of intermediate representation and register allocation.</p>
+  <div class="tags large"><span>Rust</span><span>SSA</span><span>x86</span><span>Register allocation</span></div>
+  <div class="detail-grid">
+    <section><h2>Overview</h2><p>I built an optimizing compiler as part of compiler-construction coursework. The project provided an opportunity to work below the application layer and understand how language features become executable machine code.</p><p>The compiler used an SSA-based intermediate representation and included optimization work designed to reduce unnecessary runtime cost.</p></section>
+    <aside class="stat-card"><strong>25%+</strong><span>reduction in measured runtime overhead</span></aside>
+  </div>
+  <section class="content-section"><h2>What I worked on</h2><div class="bullet-grid"><div><h3>Intermediate representation</h3><p>Worked with SSA-form representations to reason about values, data flow, and optimization opportunities.</p></div><div><h3>Register allocation</h3><p>Implemented allocation logic to map compiler-level values onto the limited register resources available on x86.</p></div><div><h3>Optimization</h3><p>Added optimization passes and removed unnecessary runtime checks where program invariants made them redundant.</p></div><div><h3>Performance</h3><p>Measured the resulting system to evaluate how compiler changes affected runtime behavior rather than relying only on correctness tests.</p></div></div></section>
+  <div class="note">Course-specific implementation details have been intentionally omitted to avoid sharing material that could compromise future students' assignments.</div>
+</main>
+<footer class="footer"><div class="container footer-inner"><p>Andrew · Portfolio</p><p>University of Michigan · Computer Science</p></div></footer>
+</body></html>
